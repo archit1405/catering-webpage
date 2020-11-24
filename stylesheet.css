@@ -1,0 +1,155 @@
+
+
+body{
+    margin: 0;
+    font-size: 25px;
+	
+}
+
+/*nav bar starting*/
+.topNav {
+    background-color: #0c0b0b;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+
+}
+
+/* Style the links inside the navigation bar */
+.topNav a {
+    float: right;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+
+/* Change the color of links on hover */
+.topNav a:hover {
+    background-color: #349809;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topNav a.active {
+    background-color: #8f364f;
+    color: white;
+}
+/*nav bar ending*/
+
+h4{
+    color: steelblue;
+
+}
+
+header{
+    color: navajowhite;
+    font-size: 75px;
+	background-color: seagreen;
+    padding: 10px;
+    margin: 0 auto;
+	text-align: center;
+    border: limegreen inset 10px;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+}
+
+.introImage{
+    margin: 20px 10px 20px 40px;
+}
+
+.mocktail{
+    height: 200px;
+    border: 3px solid #d65e5e;
+}
+
+ .intro{
+     background-color: white;
+ 	text-align: center;
+ 	margin: 20px 50px 20px 10px;
+ 	border-style: inset;
+     padding-bottom: 10px;
+
+ }
+
+.introduction{
+    margin: 50px 0;
+    display: flex;
+    border-top: 5px solid #be4c62;
+    border-bottom: 5px solid #be4c62;
+}
+
+ .menuContent{
+    background-image: url("images/bggimage.jpg");
+     padding: 20px;
+     margin-top: 100px;
+ 	text-align: center;
+ 	color: steelblue;
+	font-family: 'Dancing Script', cursive;
+ }
+
+
+/*images*/
+.img-fruit{
+    display: flex;
+    margin: 15px 150px;
+}
+.img-snacks{
+    display: flex;
+    margin: 15px 150px;
+}
+.img-mc{
+    display: flex;
+    margin: 15px 150px;
+}
+
+.img-desert{
+    display: flex;
+    margin: 15px 150px;
+}
+.imagess{
+    width: 30%;
+    margin: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px solid #bdc3c7;
+    padding: 10px;
+}
+
+.map {
+    position: relative;
+    text-align: center;
+    /*color: #4242a9;*/
+    margin: 20px auto;
+    filter:opacity(200%);
+}
+.map .centered {
+    padding: 5px 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+}
+.newsletter{
+    background-color: black;
+    color: steelblue;
+    margin: 20px auto;
+    padding: 10px 60px;
+}
+.aboveFooter{
+    background-color: black;
+    border-top: crimson 15px solid;
+    margin: 30px 0 0 0;
+    display: flex;
+}
+
